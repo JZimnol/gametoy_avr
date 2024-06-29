@@ -1,0 +1,11 @@
+--- avrtos/avrtos_config.h	2024-06-29 18:59:13.524842400 +0200
++++ avrtos/avrtos_config.h	2024-06-24 15:48:11.237375100 +0200
+@@ -27,7 +27,7 @@
+  * Enables usage of asynchronous logger using avrtos_log() macro. If
+  * AVRTOS_WITH_MUTEX is disabled, may produce strange and mixed log messages.
+  */
+-#define AVRTOS_WITH_ASYNCHRONOUS_LOGGER
++//#define AVRTOS_WITH_ASYNCHRONOUS_LOGGER
+ 
+ #ifdef AVRTOS_WITH_ASYNCHRONOUS_LOGGER
+ 

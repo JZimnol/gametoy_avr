@@ -1,0 +1,3 @@
+[submodule "src/avrtos"]
+	path = src/avrtos
+	url = https://github.com/JZimnol/avrtos
